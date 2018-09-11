@@ -2,7 +2,7 @@
   "name": "phptars/tars-deploy",
   "description": "tarsphp 打包",
   "minimum-stability": "dev",
-  "version":"0.1.0",
+  "version":"0.1.1",
   "authors": [
     {
         "name": "Panpan Ding",
@@ -15,12 +15,6 @@
   "autoload": {
     "psr-4": {
       "Tars\\deploy\\": "src/"
-    }
-  },
-  "repositories": {
-    "tars": {
-      "type": "composer",
-      "url": "https://raw.githubusercontent.com/Tencent/Tars/master/php/dist/tarsphp.json"
     }
   }
 }
