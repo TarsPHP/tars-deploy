@@ -2,7 +2,7 @@
 
 2. Ensure that the. / tar / tar.proto.php file under the project exists and contains the following contents
 
-` ` ` `
+```
 
 return array(
 
@@ -14,13 +14,13 @@ return array(
 
 );
 
-` ` ` `
+```
 
 3. Introduce tar deploy to composer.json of the project.
 
 4. Add the following content to the project composer.json:
 
-` ` ` `
+```
 
 "Scripts": {
 
@@ -28,7 +28,7 @@ return array(
 
 }
 
-` ` ` `
+```
 
 5. Execute the following command in the project directory to generate the project compression package to be uploaded.
 ```
